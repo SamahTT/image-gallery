@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: rgb(255, 152, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.img {
+    background-size: cover;
+    background-image: center;
+    background-repeat: no-repeat;
+    border: 2px solid rgba(255, 152, 67, 0.638);
+}
+
+.img:hover {
+    border-color: rgb(255, 152, 67);
+}
+
+.img-1 {
+    background-image: url('sea.jpg');
+    grid-column: span 2;
+}
+
+.img-2 {
+    background-image: url('temple.jpg');
+}
+
+.img-3 {
+    background-image: url('sakura.jpg');
+    grid-row: span 2;
+}
+
+.img-4 {
+    background-image: url('train.jpg');
+}
+
+.img-5 {
+    background-image: url('clouds.jpg');
+    grid-column: span 2;
+}
+   
+   
